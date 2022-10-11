@@ -1,0 +1,289 @@
+/* Root */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Top Row */
+
+.main {
+    display: flex;
+    background-color: rgb(53, 49, 49);
+    height: 60px;
+    position: sticky;
+}
+
+#switch-bar {
+    width: 100%;
+    display: flex;
+}
+
+.colorib {
+    color: aliceblue;
+    font-size: 2.3rem;
+    padding: 10px 20px;
+}
+.colorib a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.saita {  
+    font-size: 1.2rem;
+    padding: 20px 30px;
+    background-color: rgb(15, 15, 15);
+    opacity: 0.6;
+}
+.saita a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* saita_section  */
+#saita_section{
+    height: 200px;
+    background-color: rgb(53, 49, 49);
+    display: none;
+}
+#icons {
+    display: flex;
+    cursor: pointer;
+}
+
+.icon {
+    border: 1px solid rgb(36, 34, 34);
+    width: 60px;
+}
+
+.icon:hover {
+    background-color: black;
+}
+
+.icon i {
+    padding: 20px;
+    font-size: 1.5rem;
+    color: aliceblue;
+    opacity: 0.5;
+}
+
+.icon-4 {
+    border: 1px solid rgb(36, 34, 34);
+    width: 60px;
+    background-color: #7ac64d;
+}
+
+.icon-4 i {
+    padding: 20px;
+    font-size: 1.5rem;
+    color: aliceblue;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-4:hover {
+    background-color: black;
+}
+
+/* Home Section  */
+
+#home::before {
+    content: "";
+    /* background: url(/images/pexels-irene-lasus-88517.jpg) no-repeat center center/cover; */
+    background:  linear-gradient(to right, red , yellow);;
+    position: absolute;
+    width: 100%;
+    height: 850px;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+}
+
+#navbar{
+    display: flex;
+}
+
+.saita-1{
+padding: 22px 65px;
+margin: 20px 50px;
+font-size: 25px;
+}
+.saita-1 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+#home .menu {
+    display: flex;
+    padding: 20px 125px;
+    margin: 2px 120px;
+    justify-content: end ;
+}
+
+#home .menu li {
+    padding: 24px;
+    list-style-type: none;
+    font-size: 18px;
+}
+#home .menu li a{
+text-decoration: none;
+font-family: 'Baloo 2', cursive;
+color: white;
+}
+
+/* For Hero Image */
+.hero img{
+    height: 100%;
+    top: 22%;
+    right: 8.5%;
+    position: absolute;
+    z-index: -1;
+}
+ 
+/* Below Menu  */
+
+.boost-sales{
+padding: 85px 55px;
+margin: 55px;
+}
+
+.title{
+    font-size: 46px;
+    color: white;
+    line-height: 1.2;
+    font-family: 'Sora', sans-serif;
+   margin-bottom: -10px;
+}
+
+.boost-sales p{
+    margin: 22px 0px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Sora', sans-serif;
+    line-height: 1.8;
+}   
+
+.promote{
+    display: flex;
+}
+
+.project{
+    width: 180px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.project a{
+    text-decoration: none;
+    font-size: 17px;
+    color: lightgreen; 
+    word-spacing: 1.4px;
+}
+.watch{
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+}
+.watch a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Sora', sans-serif;
+}
+.watch i{
+   padding: 8px;
+   font-size: 13px;
+}
+
+/* second part  */
+
+#second-section{
+    display: flex;
+    margin: 0px 112px;
+    /* margin-top: -px; */
+}
+
+.box{
+    border: 1px solid #5579fa;
+    padding: 41px;
+    margin: 3px;
+    background-color: #5579fa;
+}
+
+/* First box Hovering  */
+
+.box_hover{
+    border: 1px solid white;
+    padding: 41px;
+    margin: 3px;
+    background-color: white;
+    /* box-shadow: 15px 15px;  */
+}
+.box_hover h4{
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: 'Sora', sans-serif;
+}
+.box_hover p{
+    font-size: 16px;
+    line-height: 1.8;
+    font-family: 'Sora', sans-serif;
+}
+
+.box_hover:hover {
+    background-color: #5579fa;
+    border: 1px solid #5579fa;
+}
+.box_hover:hover  .circle_hover{
+    background-color: rgb(255, 186, 57);
+}
+
+.box h4{
+   font-size: 20px;
+   line-height: 1.6;
+   font-family: 'Sora', sans-serif;
+}
+.box p{
+    font-size: 16px;
+    line-height: 1.8;
+    font-family: 'Sora', sans-serif;
+ }
+
+ .circle{
+    height: 65px;
+    width: 65px;
+    border: 1px solid rgb(255, 186, 57);
+    border-radius: 50%;
+    background-color: rgb(255, 186, 57);
+    margin-bottom: 18px;
+ }
+
+ /* First one Circle to do Hover  */
+
+ .circle_hover{
+    height: 67px;
+    width: 67px;
+    border: 1px solid 5579fa;
+    border-radius: 50%;
+    background-color: #5579fa;
+    margin-bottom: 18px;
+ }
+
+ .circle_hover i{
+    margin: 17px;
+    font-size: 35px;
+ }
+
+ .circle i{
+    margin: 15px;
+    font-size: 35px;
+    color: white;
+ }
+.nd i{
+    margin: 11px;
+}
